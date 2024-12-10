@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <!-- Title -->
+  <title>Frontend Mentor | Blog preview card</title>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#F4D04E] font-[Figtree] h-screen w-screen flex flex-col justify-center items-center m-0 p-0">
+  <!-- Card -->
+  <main class="flex flex-col justify-center items-center bg-white max-w-[330px] h-[470px] rounded-2xl text-sm border border-[rgb(0,0,0)] shadow-[8px_7px_0px_0px_rgba(0,0,0)] transition-all">
+    <img class="rounded-xl w-72" src="images/illustration-article.svg" alt="Top illustration">
+    <div class="flex flex-col justify-center items-center ml-7">
+    <p class="bg-[#F4D04E] font-extrabold py-1 p-3 mt-6 rounded-[4px] self-start">Learning</p>
+    <p class="font-medium text-[#121212] self-start mt-4">Published 21 Dec 2023</p>
+    <h1 class="font-extrabold text-xl self-start mt-3 hover:text-[#F4D04E] transition-all cursor-pointer">HTML & CSS foundations</h1>
+    <p class="font-medium text-[#6b6b6b] mt-3">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <img class="w-8 self-start mt-6" src="images/image-avatar.webp" alt="Greg avatar"><p class="font-extrabold mr-32 -mt-6">Greg Hooper</p>
+    </div>
+  </main>
+</body>
+</html>
