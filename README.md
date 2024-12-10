@@ -8,8 +8,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 
 
-- Solution URL: [Frontend Mentor]()
-- Live Site URL: [Deploy]()
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/blog-preview-card-solution-DE77ZLg124)
+- Live Site URL: [Deploy](https://kalebemax.github.io/blog-preview-card-main/)
 
 
 
